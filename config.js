@@ -9,20 +9,20 @@ global.antitags = process.env.ANTITAGS || true;
 
 // Auto functioner
 global.autoTyping = process.env.AUTO_TYPING || false;
-global.autoRecord = process.env.AUTO_RECORD || false;
-global.groupevent = process.env.GROUPEVENT || false;
+global.autoRecord = process.env.AUTO_RECORD || true;
+global.groupevent = process.env.GROUPEVENT || true;
 global.statusseen = process.env.STATUSSEEN || true;
 global.autoreadgc = process.env.AUTOREADGC || true;
 
 
 // Auth information
-global.pairNumber = "919002162806";                         // Add your paining number with country code example "916297175943"; 
+global.pairNumber = "2347080376875";                         // Add your paining number with country code example "916297175943"; 
 global.port = process.env.PORT || "10000";
 global.auth = process.env.AUTH || "Pairing";                // Auth mode OR/Pairing.
 global.sessionFile = process.env.SESSION_FILE || "A17-SESSION";
 global.mongodb = process.env.MONGODB || "";                 // Mongodb url.
 global.website = "https://www.exenoz.tech"; 
-global.github = "https://github.com/Kai0071";
+global.github = "https://github.com/culzex";
 
 
 // Default prefix
@@ -30,15 +30,15 @@ global.prefa = process.env.PREFIX ? process.env.PREFIX.split(",") : ["."];
 
 
 // Owner information
-global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["916297175943", "919362639362"];
-global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["916297175943", "919362639362"];
-global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["916297175943"];
-global.OwnerName = process.env.OWNER_NAME || "Kai";
-global.BotName = process.env.BOT_NAME || "A17";
-global.packname = process.env.PACK_NAME || "A17 Bot";
-global.author = "By: Kai";
-global.BotSourceCode = "https://github.com/Kai0071/A17";
-global.SupportGroupLink = "https://chat.whatsapp.com/GhRGdwfaMVDCoeAdzILfl";
+global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["2347080376875", "2347080376875"];
+global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["2347080376875", "2347080376875"];
+global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["2347080376875"];
+global.OwnerName = process.env.OWNER_NAME || "Culxez";
+global.BotName = process.env.BOT_NAME || "Bypasser";
+global.packname = process.env.PACK_NAME || "Culxez Bot";
+global.author = "By: Alex";
+global.BotSourceCode = "https://github.com/Culzex/A17";
+global.SupportGroupLink = "https://whatsapp.com/channel/0029VahD2IR9cDDSZplIPe1t";
 
 
 //
@@ -81,17 +81,17 @@ global.ntilink = []
 // Messages
 global.mess = {
   jobdone: 'Here you go...',
-  useradmin: 'Sorry, only *Group Admins* can use this command *Baka*!',
+  useradmin: 'Sorry, only *Group Admins* can use this command *ℹ️ℹ️ℹ️*!',
   botadmin: 'Sorry, i cant execute this command without being an *Admin* of this group.',
-  botowner: 'Only my *Owner* can use this command, Baka!',
-  grouponly: 'This command is only made for *Groups*, Baka!',
-  privateonly: 'This command is only made for *Private Chat*, Baka!',
+  botowner: 'Only my *Owner* can use this command, ℹ️ℹ️ℹ️!',
+  grouponly: 'This command is only made for *Groups*, 📵📵📵!',
+  privateonly: 'This command is only made for *Private*, ℹ️ℹ️ℹ️!',
   botonly: 'Only the *Bot itself* can use this command!',
   waiting: 'Just Wait...',
-  nolink: 'Please provide me *link*, Baka!',
-  error: 'An error occurd!',
+  nolink: 'Please provide me *link*, 🚫🚫🚫!',
+  error: 'An error occured!',
   banned: 'You are *Banned* fron using commands!',
   bangc: 'This Group is *Banned* from using Commands!',
-  nonsfw: 'Dont be a pervert Baka! This is not a NSFW enabled group!'
+  nonsfw: 'Dont be a pervert cow! This is not a NSFW enabled group!'
 
 }
